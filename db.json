@@ -1,0 +1,171 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Leonel",
+      "email": "leonel@gmail.com",
+      "password": "leo123"
+    },
+    {
+      "id": 2,
+      "nombre": "Agustin",
+      "email": "agustin@gmail.com",
+      "password": "agu123"
+    },
+    {
+      "nombre": "fachu",
+      "email": "fachu@gmail.com",
+      "password": "fachu123",
+      "id": 3
+    },
+    {
+      "nombre": "ale",
+      "email": "ale@gmail.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "nombre": "raul",
+      "email": "raul@gmail.com",
+      "password": "123",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "author": "Leonel",
+      "comment": "cool",
+      "usuarioId": 1,
+      "fecha": "23/12/2022 - 19:01hs"
+    },
+    {
+      "id": 2,
+      "author": "Agustin",
+      "comment": "satisfecho",
+      "usuarioId": 2,
+      "fecha": "25/12/2022 - 17:24hs"
+    },
+    {
+      "id": 3,
+      "author": "raul",
+      "comment": "ta piola esto",
+      "usuarioId": 5,
+      "fecha": "27/12/2022 - 16:10hs"
+    },
+    {
+      "id": 4,
+      "author": "momo",
+      "comment": "quiero comer",
+      "usuarioId": 6,
+      "fecha": "29/12/2022 - 14:50hs"
+    },
+    {
+      "id": 5,
+      "author": "Leonel",
+      "comment": "Esta pagina me parece muy interesante.",
+      "usuarioId": 1,
+      "fecha": "03/01/2023 - 13:55hs"
+    },
+    {
+      "id": 6,
+      "author": "Agustin",
+      "comment": "Buenisimo, me encanta.",
+      "usuarioId": 2,
+      "fecha": "09/01/2023 - 15:20hs"
+    },
+    {
+      "id": 7,
+      "author": "Agustin",
+      "comment": "Ya no me gusta",
+      "usuarioId": 2,
+      "fecha": "17/01/2023 - 10:12hs"
+    },
+    {
+      "id": 8,
+      "author": "ale",
+      "comment": "Solo queria comentar",
+      "usuarioId": 4,
+      "fecha": "20/01/2023 - 18:25hs"
+    },
+    {
+      "author": "Leonel",
+      "comment": "pagina recomendada",
+      "usuarioId": 1,
+      "fecha": "26/1/2023 - 0:38hs",
+      "id": 9
+    },
+    {
+      "author": "Leonel",
+      "comment": "me encanta",
+      "usuarioId": 1,
+      "fecha": "26/1/2023 - 2:42hs",
+      "id": 10
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "titulo": "Ghost Recon Breakpoint",
+      "descripcion": "Ghost Recon Breakpoint es un shooter militar ambientado en un mundo abierto, diverso y hostil, que los jugadores podrán jugar por completo en modo individual o en cooperativo de hasta 4 jugadores.",
+      "linkTrailer": "https://www.youtube.com/watch?v=CWiOE2-OWpk",
+      "fechaEstreno": "24/1/2023"
+    },
+    {
+      "id": 2,
+      "titulo": "Starfield",
+      "descripcion": "En este juego de rol ambientado entre las estrellas, podrás crear el personaje que desees y explorar con una libertad sin precedentes mientras te embarcas en un viaje épico para desentrañar el mayor misterio de la humanidad.",
+      "linkTrailer": "https://www.youtube.com/watch?v=pYqyVpCV-3c",
+      "fechaEstreno": "20/10/2023"
+    },
+    {
+      "id": 3,
+      "titulo": "Star Wars Jedi: Survivor",
+      "descripcion": "La historia de Cal Kestis continúa en STAR WARS Jedi: Survivor™, una nueva aventura épica que llevará a Cal a nuevas fronteras en una lucha por proteger a la galaxia y evitar que se suma de lleno en la oscuridad.",
+      "linkTrailer": "https://www.youtube.com/watch?v=9ulsvAx-E2I",
+      "fechaEstreno": "17/03/2023"
+    },
+    {
+      "id": 4,
+      "titulo": "Hollow Knight: Silksong",
+      "descripcion": "Es la secuela de Hollow Knight, como la letal cazadora Hornet, viajarás a nuevas tierras, descubrirás nuevos poderes, combatirás contra hordas de insectos y bestias, y desvelarás antiguos secretos ligados a tu naturaleza y a tu pasado.",
+      "linkTrailer": "https://www.youtube.com/watch?v=kT2QMsX-Hqs",
+      "fechaEstreno": "24/6/2023"
+    },
+    {
+      "id": 5,
+      "titulo": "Amored Core VI: Fires of Rubicon",
+      "descripcion": "Los jugadores ensamblarán y pilotarán su propio robot. Enfréntate a desafíos y sobrepasa a tus enemigos con movimientos dinámicos que aprovechen al máximo el combate a distancia y cuerpo a cuerpo.",
+      "linkTrailer": "https://www.youtube.com/watch?v=kKO1s-CUZvY",
+      "fechaEstreno": "20/7/2023"
+    },
+    {
+      "id": 6,
+      "titulo": "Diablo IV",
+      "descripcion": "Ocurre muchos años después de los acontecimientos de Diablo III, cuando millones han sido masacrados por las acciones de los Altos Cielos y los Infiernos Abrasadores por igual. Un nombre legendario surgirá de nuevo.",
+      "linkTrailer": "https://www.youtube.com/watch?v=88HP1EC6U_s",
+      "fechaEstreno": "6/6/2023"
+    },
+    {
+      "id": 7,
+      "titulo": "The Legend of Zelda: Tears of the Kingdom",
+      "descripcion": "Es una aventura de acción a cargo de Nintendo para Switch. En esta secuela de The Legend of Zelda: Breath of the Wild, el escenario de la aventura de Link se ha ampliado para incluir los vastos cielos de Hyrule.",
+      "linkTrailer": "https://www.youtube.com/watch?v=p_jPc32zpPA",
+      "fechaEstreno": "12/5/2023"
+    },
+    {
+      "id": 8,
+      "titulo": "Hogwarts legacy",
+      "descripcion": "Hogwarts Legacy es un RPG ambientado en el universo de Harry Potter. Tú puedes tomar el control de la acción y ser el centro de tu propia aventura en el mundo mágico. La leyenda de Hogwarts es tuya. Crea tu propio legado.",
+      "linkTrailer": "https://www.youtube.com/watch?v=S6GTl_vPRvU",
+      "fechaEstreno": "10/2/2023"
+    },
+    {
+      "id": 9,
+      "titulo": "Fina Fantasy XVI",
+      "descripcion": "El legado de los cristales ha forjado el destino de la humanidad durante demasiado tiempo. Se trata de la decimosexta entrega de la franquicia de Final Fantasy. producido por Naoki Yoshida y dirigido por Hiroshi Takai.",
+      "linkTrailer": "https://www.youtube.com/watch?v=wvunu2e29tc",
+      "fechaEstreno": "22/6/2023"
+    }
+  ]
+}

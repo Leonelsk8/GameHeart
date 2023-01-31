@@ -1,0 +1,7 @@
+Deben realizar una app que tenga tres paginas:
+Login: Sera la primer pagina que vera el cliente. debe tener un formulario para ingresar usuario y contraseña, un boton para enviar los datos y una etiqueta "a" que redirija a una pagina para registrarse. El boton enviar tendra la lógica necesaria para comparar los datos almacenados en el localStorage y asi corroborar que tanto el usuario como la contraseña sean correctos.
+Register: Esta pagina debe contener un formulario para ingresar los datos del nuevo usuario. Los mismos deben almacenarse en el localStorage al pulsar el boton enviar. Tambien tiene que incluir una etiqueta "a" que redirija al login en el caso de ya tener una cuenta.
+Homepage: En esta pagina tendran libertad para hacerla sobre un tema que ustedes elijan... la misma debe contener un navbar (El navbar debe tener un boton para cerrar sesion) un footer y una seccion principal con la informacion sobre su pagina. La seccion principal debe contener entre 4 o 5 cards con informacion sobre su pagina. Las mismas deben generarse de manera dinamica.
+La pagina debe ser 100% responsive
+
+(si te animas, hacelo con json-server)
