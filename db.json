@@ -1,10 +1,10 @@
 {
   "usuarios": [
     {
-      "id": 1,
-      "nombre": "Leonel",
+      "nombre": "leonel",
       "email": "leonel@gmail.com",
-      "password": "leo123"
+      "password": "leo123",
+      "id": 1
     },
     {
       "id": 2,
@@ -35,7 +35,7 @@
     {
       "id": 1,
       "author": "Leonel",
-      "comment": "cool",
+      "comment": ":D good",
       "usuarioId": 1,
       "fecha": "23/12/2022 - 19:01hs"
     },

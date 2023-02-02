@@ -42,6 +42,7 @@ const registrar = () => {
     return;
   }
   const password = document.registro.password.value;
+  
   if(password === document.registro.password2.value){
     let evaluar=false;
       fetch('http://localhost:3000/usuarios/')
@@ -119,4 +120,9 @@ const loginChange = () =>{
   document.getElementById('nav-log').classList.add('active');
   document.getElementById('logSM').classList.remove('d-none');
   document.getElementById('regSM').classList.add('d-none');
+}
+
+const profilePicture = () =>{
+  const input = document.getElementById("formFile");
+
 }

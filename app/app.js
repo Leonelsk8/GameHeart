@@ -202,3 +202,58 @@ const closeSesion = () => {
   localStorage.clear();
   window.location = './login.html';
 };
+
+const modal = () =>{
+  document.getElementById('modal').innerHTML = `
+  <h5 class="mb-3">Nombre de usuario: ${userLog.nombre}</h5>
+  <h5 class="mb-3">Correo Electronico: ${userLog.email}</h5>
+  <div id="changePass">
+    <button class="btn btn-primary" onclick="passwordChange()">Cambiar contraseña</button>
+  </div>`;
+};
+
+const passwordChange = () =>{
+  document.getElementById('changePass').innerHTML= `
+  <form name="changePassword" class="row">
+    <div class="mb-3 col-12 col-md-6">
+      <label for="exampleInputPassword" class="form-label">Contraseña actual</label>
+      <input type="password" class="form-control border border-primary" name="password1" value="" id="exampleInputPassword">
+    </div>
+    <div class="mb-3 col-12 col-md-6" id="pass2">
+      <label for="exampleInputPassworddd" class="form-label">Contraseña nueva</label>
+      <input type="password" class="form-control border border-primary" name="password2" value="" id="exampleInputPassworddd">
+    </div>
+    <div>
+      <button type="button" onclick="modifiedPass()" class="btn btn-primary">Cambiar</button>
+    </div>
+  </form>
+  `;
+}
+
+const modifiedPass = ()=>{
+  const actuallyPass = document.changePassword.password1.value;
+  const newPass = document.changePassword.password2.value;
+  if(actuallyPass === userLog.password){
+    fetch(`http://localhost:3000/usuarios/${userLog.id}`, {
+    method: 'PUT',
+    body: JSON.stringify({
+      nombre: userLog.nombre,
+      email: userLog.email,
+      password: newPass
+    }),
+    headers: {
+      'Content-type': 'application/json; charset=UTF-8',
+    }
+    })
+    .then((resp) => resp.json())
+    .then((resp) => console.log(resp))
+    .catch((error) => console.log(error));
+    alert('Contraseña modificada');
+    userLog.password = newPass;
+    localStorage.clear();
+    localStorage.setItem('UsuarioActivo', JSON.stringify(userLog));
+    window.location.reload();
+  }else{
+    alert('Contraseña actual no coincide');
+  }
+}

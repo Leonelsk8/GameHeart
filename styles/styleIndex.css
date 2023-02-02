@@ -105,3 +105,8 @@
     justify-content: space-around;
   }
 }
+
+.modal-content{
+  background-color: rgba(5, 26, 30, 0.807);
+  border: solid #fff 1px;
+}
